@@ -46,19 +46,19 @@
   text-align: left;
 }
 
-.app__aboutus-content_history p,
-.app__aboutus-content_about p {
+.app__aboutus-content_about p,
+.app__aboutus-content_history p {
   margin: 2rem 0;
-  color: var(--color-gray);
+  color: var(--color-grey);
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (min-width: 2000px) {
   .app__aboutus-content_knife img {
     height: 1110px;
   }
 
-  .app__aboutus-content_history p,
-  .app__aboutus-content_about p {
+  .app__aboutus-content_about p,
+  .app__aboutus-content_history p {
     margin: 4rem 0;
   }
 }
@@ -73,7 +73,7 @@
   }
 }
 
-@media screen and (mqx-width: 640px) {
+@media screen and (max-width: 650px) {
   .app__aboutus-overlay img {
     width: 80%;
     height: 320px;
